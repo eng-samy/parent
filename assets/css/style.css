@@ -1,0 +1,68 @@
+.main-content{
+  margin-top: 20px
+}
+
+.page-title {
+  margin-bottom: 30px
+}
+
+.add-btn {
+  margin-top: 10px
+}
+
+.load_data {
+  width: 100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 47%;
+}
+
+.price{
+  font-size: 30px;
+  margin: 0 auto;
+  color: #333;
+}
+.right{
+  float:right;
+  border-bottom: 2px solid #4B8E4B;
+}
+.thumbnail{
+  opacity:0.70;
+  -webkit-transition: all 0.5s; 
+  transition: all 0.5s;
+}
+
+.thumbnail:hover{
+  opacity:1.00;
+  box-shadow: 0px 0px 10px #4bc6ff;
+}
+
+.thumbnail img {
+  width: 100%
+}
+
+.thumbnail h4 {
+  margin-top: 10px
+}
+
+.line{
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 770px) {
+  .right{
+    float:left;
+    width: 100%;
+  }
+}
+
+.order_nums {
+  background: #dc3545;
+  padding: 3px 10px;
+  border-radius: 50%;
+  font-weight: 600;
+}
+
+.collection {
+  color: #ddd
+}
